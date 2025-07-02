@@ -3,39 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nabila Streams - Home</title>
+  <title>Nabila Streams - Galeri Musik</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header class="navbar">
-    <h1>Nabila Streams 🎵</h1>
+    <h1>Nabila Streams</h1>
+    <nav>
+      <a href="home.html">Beranda</a>
+      <a href="profile.html">Profil</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
   </header>
 
-  <main>
-    <section id="playlist"></section>
+  <main class="main-content">
+    <section class="gallery">
+      <!-- Daftar video dari Mux -->
+      <div class="video-card">
+        <iframe src="https://stream.mux.com/nrGPqEXrU02JhcpNIJLDaRWmzspYWBBJVFBYyxqOPYhQ.m3u8" allowfullscreen></iframe>
+        <h3>The Queen Of Pretend</h3>
+      </div>
 
-    <section id="player-section">
-      <div id="video-container"></div>
-      <div id="track-info">
-        <h2 id="track-title"></h2>
-        <p id="track-artist"></p>
+      <div class="video-card">
+        <iframe src="https://stream.mux.com/00rta8D86Qo38wDHr4dxZsRazLP00TIOaffDz00J3JLQfA.m3u8" allowfullscreen></iframe>
+        <h3>Love Poem (Puisi Cinta)</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://stream.mux.com/1oAIOhbqkWrE31eLdVvZJMcnF02a7Uusdz22YlBcfhxg.m3u8" allowfullscreen></iframe>
+        <h3>The Pleasure Of Love</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://stream.mux.com/AVQFBySki3O6RCgxTmvbd5KjOcV9pgKbGHJw2YP23kw.m3u8" allowfullscreen></iframe>
+        <h3>Drunk Confessions</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://stream.mux.com/YDigUoNU01wIo2Z1OGPYGx3RZfyOs2dNFUacSIOHc6NU.m3u8" allowfullscreen></iframe>
+        <h3>Broken Home Anthem</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://stream.mux.com/A5Qf02aZgpvj2Wcbeg5AUJj2zcr4gbMhVqcnIy6EAvew.m3u8" allowfullscreen></iframe>
+        <h3>Secangkir Kopi Dan Sepotong Roti</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://stream.mux.com/bj8sP402WcY202rDhb2iZxvVLr00PKUL700GE01XSsl02dNSI.m3u8" allowfullscreen></iframe>
+        <h3>SETIAKU DISISIMU</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://stream.mux.com/uasya8CBIMhSRhMjr02PowcFYAdtRUlGicZy01ejmIv2o.m3u8" allowfullscreen></iframe>
+        <h3>Wanita Penjual Sayur</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://stream.mux.com/YS3dhhygPnMl6F00ea02OztJ8WZIi7pT9KfzJIrPqzoHE.m3u8" allowfullscreen></iframe>
+        <h3>Janda Nakal Pencuri Suami</h3>
       </div>
     </section>
-
-    <section id="controls">
-      <button id="like-btn">👍 Like</button>
-      <button id="share-btn">🔗 Share</button>
-    </section>
-
-    <section id="comments-section">
-      <h3>Komentar</h3>
-      <div id="comments"></div>
-      <input type="text" id="comment-input" placeholder="Tulis komentar..." />
-      <button id="comment-submit">Kirim</button>
-    </section>
   </main>
-
-  <script type="module" src="js/app.js"></script>
-  <script type="module" src="js/comment.js"></script>
 </body>
 </html>
