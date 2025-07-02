@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profil - Nabila Streams</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style_new.css" />
+</head>
+<body>
+  <header>
+    <h1>👤 Profil Saya</h1>
+    <a href="index.html">⬅ Kembali ke Beranda</a>
+  </header>
+
+  <section class="profile-container">
+    <img src="https://vgchzuqtrmohyzojvngw.supabase.co/storage/v1/object/public/seleniumplatformassets/selenium%20profile.jpg" class="profile-img" id="profile-img" />
+
+    <div class="form-group">
+      <label>Nama</label>
+      <input type="text" id="name" placeholder="Nama kamu">
+    </div>
+
+    <div class="form-group">
+      <label>Bio</label>
+      <textarea id="bio" placeholder="Deskripsi singkat..."></textarea>
+    </div>
+
+    <button id="update-profile">💾 Simpan</button>
+    <div class="feedback" id="feedback"></div>
+  </section>
+
+  <script type="module" src="js/profile.js"></script>
+</body>
+</html>
