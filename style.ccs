@@ -1,0 +1,27 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.video-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.video-card iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  border: none;
+}
+
+.video-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #111;
+}
