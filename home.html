@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nabila Streams - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1>Nabila Streams 🎵</h1>
+  </header>
+
+  <main>
+    <section id="playlist"></section>
+
+    <section id="player-section">
+      <div id="video-container"></div>
+      <div id="track-info">
+        <h2 id="track-title"></h2>
+        <p id="track-artist"></p>
+      </div>
+    </section>
+
+    <section id="controls">
+      <button id="like-btn">👍 Like</button>
+      <button id="share-btn">🔗 Share</button>
+    </section>
+
+    <section id="comments-section">
+      <h3>Komentar</h3>
+      <div id="comments"></div>
+      <input type="text" id="comment-input" placeholder="Tulis komentar..." />
+      <button id="comment-submit">Kirim</button>
+    </section>
+  </main>
+
+  <script type="module" src="js/app.js"></script>
+  <script type="module" src="js/comment.js"></script>
+</body>
+</html>
